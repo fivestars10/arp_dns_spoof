@@ -14,7 +14,7 @@ Download Required Packages By Using this Command
    sudo apt-get -y install gcc make
 
 Download Python Package By Using This Command
-   wget https://www.python.org/ftp/python/3.6.5/Python3.6.5.tgz
+   wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
 
 Extract Package File
    tar -xvf Python3.6.5.tgz
