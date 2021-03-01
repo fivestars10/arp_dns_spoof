@@ -1,9 +1,12 @@
-DNS & ARP Spoofing
+# DNS & ARP Spoofing
+
 This script will demonstrate the concept of DNS and ARP spoofing.
 
-Installation
-Use the package manager apt-get and pip to install dependencies.
+## Installation
 
+Use the package manager [apt-get](https://linux.die.net/man/8/apt-get) and [pip](https://pip.pypa.io/en/stable/) to install dependencies.
+
+```bash
 Update Repositories Type
    sudo apt-get update
 
@@ -29,16 +32,22 @@ Install Required Packages for NetFilterQueue
 
 Install from requirement file
    python3.6 -m pip install -r requirements.txt
-Usage
+```
+
+## Usage
+
+```python
 import foobar
 
 foobar.pluralize('word') # returns 'words'
 foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
-Contributing
+```
+
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-License
-MIT
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
